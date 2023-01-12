@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Jsx from './Components/Jsx';
+
+
+
 
 function App() {
   return (
-    <div>App</div>
+    <>
+    <Jsx/>
+    </>
   )
 }
 
