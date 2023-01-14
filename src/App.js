@@ -14,7 +14,7 @@ function App() {
     {/* <ComponentsAndProps/> */}
     {/* <TernaryOperator/> */}
     {/* <Lists/> */}
-    <States/>
+    {/* <States/> */}
     </>
   )
 }
