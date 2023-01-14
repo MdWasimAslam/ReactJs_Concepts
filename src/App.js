@@ -4,7 +4,7 @@ import ComponentsAndProps from './Components/ComponentsAndProps';
 import TernaryOperator from './Components/TernaryOperator';
 import Lists from './Components/Lists';
 import States from './Components/States';
-
+import TodoList from './Components/TodoList';
 
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
     {/* <TernaryOperator/> */}
     {/* <Lists/> */}
     {/* <States/> */}
+    <TodoList/>
     </>
   )
 }
