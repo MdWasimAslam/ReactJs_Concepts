@@ -1,15 +1,21 @@
 import React from "react";
 import Jsx from "./W3mComponents/Jsx";
 import Header from "./W3mComponents/Header";
-import Student from "./W3mComponents/Student";
+// import Header from "./Header/Header.js";
+
+import Movie from "./W3mComponents/ProjectMovie/Movie";
 import "./App.css";
 
 
 function App() {
   return (
-    <div className="App">
-      <Student name={"Wasim"} age={26} />
-    </div>
+    <>
+      <Header />
+
+      <div className="main">
+        <Movie />
+      </div>
+    </>
   );
 }
 
