@@ -5,7 +5,7 @@ import Jsx from './W3mComponents/Jsx';
 function App() {
   return (
     <>
-    <Jsx/>
+    
     </>
   )
 }
