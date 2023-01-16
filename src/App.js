@@ -5,7 +5,6 @@ import Header from './W3mComponents/Header';
 function App() {
   return (
     <>
-    <Header/>
     </>
   )
 }
