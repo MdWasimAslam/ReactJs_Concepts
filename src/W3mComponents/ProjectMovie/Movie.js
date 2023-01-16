@@ -16,7 +16,7 @@ function Movie() {
                 <div className="container">
                   <h4>
                     <b>{value.Title}</b>
-                  </h4> 
+                  </h4>
                   <p>Year : {value.Year}</p>
                   <p>IMDB : {value.imdbID}</p>
                 </div>
