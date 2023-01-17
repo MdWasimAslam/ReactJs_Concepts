@@ -9,7 +9,7 @@ import UseStateHook from "./W3mComponents/UseStateHook";
 function App() {
   return (
     <>
-
+  <UseStateHook/>
     </>
   );
 }
