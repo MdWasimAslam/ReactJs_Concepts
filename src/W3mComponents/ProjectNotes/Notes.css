@@ -1,0 +1,19 @@
+.NotesContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.NotesWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.emailField {
+    margin-left: 10px !important;
+    width: 300px !important;
+}
+
+.addBtn {
+    margin-left: 10px !important;
+
+}
