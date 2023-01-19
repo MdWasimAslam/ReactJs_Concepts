@@ -8,8 +8,8 @@ import Notes from "./W3mComponents/ProjectNotes/Notes";
 
 function App() {
   return (
-    <>
-    </>
+    <div>
+    </div>
   );
 }
 
