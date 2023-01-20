@@ -12,7 +12,7 @@ import Crud from "./W3mComponents/CrudAppHooks/Crud";
 function App() {
   return (
     <div>
-      <Crud/>
+      
     </div>
   );
 }
