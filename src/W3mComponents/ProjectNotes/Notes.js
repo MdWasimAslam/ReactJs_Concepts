@@ -66,22 +66,15 @@ function Notes() {
   };
 
   const editData = (row) => {
-    // console.log("Selected Row >>>", row);
     var idToRemove = row.id;
-    console.log(row);
     setName(row.name);
     setEmail(row.email);
     const objIndex = data.findIndex((obj) => obj.id == idToRemove);
-    //Log object to Console.
-    console.log("Before update: ", data[objIndex]);
-    //Update object's name property.
     data[objIndex].name = name;
     data[objIndex].email = email;
   };
 
-  // Delete data from list
   const deleteData = (row) => {
-    // console.log("Selected Row >>>", row);
     var idToRemove = row.id;
     if (data.length == 1) {
       setid(1);
