@@ -5,7 +5,8 @@ import "./Notes.css";
 import AddIcon from "@mui/icons-material/Add";
 import { DataGrid } from "@mui/x-data-grid";
 import DeleteIcon from "@mui/icons-material/Delete";
-
+import EditIcon from "@mui/icons-material/Edit";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 function Notes() {
   const [id, setid] = useState(1);
   const [name, setName] = useState();
@@ -22,15 +23,26 @@ function Notes() {
       width: 150,
       sortable: false,
       renderCell: ({ row }) => (
-        <Button
-          onClick={() => deleteData(row)}
-          variant="contained"
-          color="error"
-        >
-          {" "}
-          <DeleteIcon />
-          Delete
-        </Button>
+        <>
+          <Button
+            onClick={() => editData(row)}
+            variant="contained"
+            color="success"
+          >
+            {" "}
+            <EditIcon />
+          </Button>
+
+          <Button
+            onClick={() => deleteData(row)}
+            variant="contained"
+            color="error"
+            style={{ marginLeft: "5px" }}
+          >
+            {" "}
+            <DeleteIcon />
+          </Button>
+        </>
       ),
     },
   ];
@@ -53,6 +65,21 @@ function Notes() {
     setEmail("");
   };
 
+  const editData = (row) => {
+    // console.log("Selected Row >>>", row);
+    var idToRemove = row.id;
+    console.log(row);
+    setName(row.name);
+    setEmail(row.email);
+    const objIndex = data.findIndex((obj) => obj.id == idToRemove);
+    //Log object to Console.
+    console.log("Before update: ", data[objIndex]);
+    //Update object's name property.
+    data[objIndex].name = name;
+    data[objIndex].email = email;
+  };
+
+  // Delete data from list
   const deleteData = (row) => {
     // console.log("Selected Row >>>", row);
     var idToRemove = row.id;
