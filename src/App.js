@@ -6,13 +6,13 @@ import Movie from "./W3mComponents/ProjectMovie/Movie";
 import UseStateHook from "./W3mComponents/UseStateHook";
 import Notes from "./W3mComponents/ProjectNotes/Notes";
 import UseEffectHook from "./W3mComponents/UseEffectHook";
-
+import Crud from "./W3mComponents/CrudAppHooks/Crud";
 
 
 function App() {
   return (
     <div>
-      
+      <Crud/>
     </div>
   );
 }
