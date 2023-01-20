@@ -12,7 +12,7 @@ import UseEffectHook from "./W3mComponents/UseEffectHook";
 function App() {
   return (
     <div>
-      <UseEffectHook/>
+      
     </div>
   );
 }
