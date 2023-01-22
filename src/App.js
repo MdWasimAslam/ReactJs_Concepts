@@ -13,7 +13,6 @@ import AppRoutes from "./W3mComponents/ReactRouterDom/AppRoutes";
 function App() {
   return (
     <div>
-      <AppRoutes/>
     </div>
   );
 }
