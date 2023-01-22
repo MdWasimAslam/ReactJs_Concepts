@@ -17,7 +17,7 @@ import CustomHooks from "./W3mComponents/CustomHooks";
 function App() {
   return (
     <div>
-      <CustomHooks/>
+      
     </div>
   );
 }
