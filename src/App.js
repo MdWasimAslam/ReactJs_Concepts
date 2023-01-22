@@ -11,11 +11,13 @@ import AppRoutes from "./W3mComponents/ReactRouterDom/AppRoutes";
 import UseContext from "./W3mComponents/UseContext/UseContext";
 import UseRef from "./W3mComponents/UseRef";
 import UseReducer from "./W3mComponents/UseReducer";
+import CustomHooks from "./W3mComponents/CustomHooks";
 
 
 function App() {
   return (
     <div>
+      <CustomHooks/>
     </div>
   );
 }
