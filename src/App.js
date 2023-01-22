@@ -12,6 +12,7 @@ import UseContext from "./W3mComponents/UseContext/UseContext";
 import UseRef from "./W3mComponents/UseRef";
 import UseReducer from "./W3mComponents/UseReducer";
 import CustomHooks from "./W3mComponents/CustomHooks";
+import UseMemoHook from "./W3mComponents/UseMemoHook";
 
 
 function App() {
