@@ -14,7 +14,7 @@ import UseContext from "./W3mComponents/UseContext/UseContext";
 function App() {
   return (
     <div>
-        <UseContext/>
+        
     </div>
   );
 }
