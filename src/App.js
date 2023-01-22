@@ -8,11 +8,13 @@ import Notes from "./W3mComponents/ProjectNotes/Notes";
 import UseEffectHook from "./W3mComponents/UseEffectHook";
 import Crud from "./W3mComponents/CrudAppHooks/Crud";
 import AppRoutes from "./W3mComponents/ReactRouterDom/AppRoutes";
+import UseContext from "./W3mComponents/UseContext/UseContext";
 
 
 function App() {
   return (
     <div>
+        <UseContext/>
     </div>
   );
 }
