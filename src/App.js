@@ -10,6 +10,7 @@ import Crud from "./W3mComponents/CrudAppHooks/Crud";
 import AppRoutes from "./W3mComponents/ReactRouterDom/AppRoutes";
 import UseContext from "./W3mComponents/UseContext/UseContext";
 import UseRef from "./W3mComponents/UseRef";
+import UseReducer from "./W3mComponents/UseReducer";
 
 
 function App() {
