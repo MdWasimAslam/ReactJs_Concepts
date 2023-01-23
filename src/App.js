@@ -21,11 +21,12 @@ import UseStateHooks from "./ThapaTechnicalComponents/UseStateHook";
 import UseEffect_Hook from "./ThapaTechnicalComponents/UseEffect_Hook";
 import UseContextApi from "./ThapaTechnicalComponents/UseContextApi";
 import UseReducerHooks from "./ThapaTechnicalComponents/UseReducerHooks";
+import UseRef_Hook from "./ThapaTechnicalComponents/UseRef_Hook";
 
 function App() {
   return (
     <div>
-      <UseReducerHooks />
+      <UseRef_Hook />
     </div>
   );
 }
