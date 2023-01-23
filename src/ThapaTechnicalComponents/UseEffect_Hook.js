@@ -18,6 +18,11 @@ function UseEffect_Hook() {
     
     const getCurrScreenWidth=()=>{
         setscreenWidth(()=>window.innerWidth)
+
+        //Clean up function cleans the residue from the event listner
+        return ()=>{
+            window.removeEventListener('resize',getCurrScreenWidth)
+        }
     }
 
 
