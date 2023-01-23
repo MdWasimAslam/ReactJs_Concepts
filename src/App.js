@@ -16,11 +16,13 @@ import UseReducer from "./W3mComponents/UseReducer";
 import CustomHooks from "./W3mComponents/CustomHooks";
 import UseMemoHook from "./W3mComponents/UseMemoHook";
 
+//---- Thapa technical Components ------------
+import UseStateHooks from "./ThapaTechnicalComponents/UseStateHook";
 
 function App() {
   return (
     <div>
-      
+      <UseStateHooks/>      
     </div>
   );
 }
