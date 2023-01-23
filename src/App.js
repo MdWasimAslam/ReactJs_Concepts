@@ -20,11 +20,12 @@ import UseMemoHook from "./W3mComponents/UseMemoHook";
 import UseStateHooks from "./ThapaTechnicalComponents/UseStateHook";
 import UseEffect_Hook from "./ThapaTechnicalComponents/UseEffect_Hook";
 import UseContextApi from "./ThapaTechnicalComponents/UseContextApi";
+import UseReducerHooks from "./ThapaTechnicalComponents/UseReducerHooks";
 
 function App() {
   return (
     <div>
-      <UseContextApi/>
+      <UseReducerHooks />
     </div>
   );
 }
