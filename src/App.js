@@ -23,6 +23,7 @@ import UseContextApi from "./ThapaTechnicalComponents/UseContextApi";
 import UseReducerHooks from "./ThapaTechnicalComponents/UseReducerHooks";
 import UseRef_Hook from "./ThapaTechnicalComponents/UseRef_Hook";
 import UseMemo_Hook from "./ThapaTechnicalComponents/UseMemo_Hook";
+import UseCallback_Hook from "./ThapaTechnicalComponents/UseCallback_Hook";
 
 function App() {
   return (
