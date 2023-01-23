@@ -1,24 +1,28 @@
-import React,{useState} from 'react'
-import Header from '../W3mComponents/Header'
+import React, { useState } from "react";
+import Header from "../W3mComponents/Header";
 
 const UseStateHook = () => {
-    const [num, setnum] = useState(0)
+  const [num, setnum] = useState(0);
 
-    function increment(){
-        setnum(num+1)
+  function increment() {
+    setnum(num + 1);
+  }
+  function decrement() {
+    if (num === 0) {
+      setnum(0);
+    } else {
+      setnum(num - 1);
     }
-    function decrement(){
-        setnum(num-1)
-    }
+  }
 
   return (
     <>
-    <Header title={"UseState Hook"}/>
-    <h1>{num}</h1>
-    <button onClick={increment}>Increment</button>
-    <button onClick={decrement}>Decrement</button>
+      <Header title={"UseState Hook"} />
+      <h1>{num}</h1>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
     </>
-  )
-}
+  );
+};
 
-export default UseStateHook
+export default UseStateHook;
